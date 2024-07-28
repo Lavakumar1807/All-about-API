@@ -161,6 +161,7 @@ app.post("/students/:id/hobbies",async(req,res)=>{
 
 // Use for checking 
 
+/*
 app.get('/students',async(req,res)=>{
     const students = await studentCollection.get()
     const studentdoc = []
@@ -175,6 +176,7 @@ app.get('/students',async(req,res)=>{
        res.status(200).send(studentdoc)
     }
 })
+*/
 
 app.listen(PORT,(req,res)=>{
     console.log("Running on PORT :",PORT);
