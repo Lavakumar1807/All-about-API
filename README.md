@@ -1,5 +1,6 @@
 # all-about-API
 <h2>Student Management System (SMS)</h2>
+
 ## Paths
 <p>GET    :  '/' --> main page </p>
 <p>POST   :  '/signup' --> signup student</p>
